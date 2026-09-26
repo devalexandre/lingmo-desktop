@@ -30,4 +30,5 @@ optdepends=(
     'flameshot: screenshots (bind it to Print in Settings > Shortcuts)'
     'networkmanager: network and VPN in the status bar'
     'bluez: Bluetooth settings'
+    'lingmo-camera: auto framing for video calls (Settings > Camera)'
 )
