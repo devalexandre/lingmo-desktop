@@ -1,6 +1,6 @@
 pkgbase = lingmo-desktop
 	pkgdesc = Lingmo desktop environment (Qt 6): session, shell, apps, themes and login screen
-	pkgver = 1.2.0
+	pkgver = 1.3.0
 	pkgrel = 1
 	url = https://github.com/devalexandre/lingmo-desktop
 	arch = any
@@ -30,6 +30,7 @@ pkgbase = lingmo-desktop
 	depends = lingmo-screenshots
 	depends = lingmo-screenlocker
 	depends = lingmo-videoplayer
+	depends = lingmo-updater
 	optdepends = konsole: KDE terminal
 	optdepends = flameshot: screenshots (bind it to Print in Settings > Shortcuts)
 	optdepends = networkmanager: network and VPN in the status bar
