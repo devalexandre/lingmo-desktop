@@ -23,7 +23,7 @@ depends=(
     # Apps
     'lingmo-terminal' 'lingmo-texteditor' 'lingmo-calculator'
     'lingmo-screenshots' 'lingmo-screenlocker' 'lingmo-videoplayer'
-    'lingmo-updater'
+    'lingmo-updater' 'lingmo-welcome'
 )
 optdepends=(
     'konsole: KDE terminal'
