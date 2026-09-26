@@ -1,7 +1,7 @@
 # Maintainer: devalexandre <alexandre@dev2learn.com>
 # Metapackage: installs the whole Lingmo desktop (Qt 6) in one go.
 pkgname=lingmo-desktop
-pkgver=1.1.0
+pkgver=1.2.0
 pkgrel=1
 pkgdesc="Lingmo desktop environment (Qt 6): session, shell, apps, themes and login screen"
 arch=('any')
@@ -20,7 +20,7 @@ depends=(
     'lingmo-sddm-theme' 'sddm' 'xorg-server'
     # Apps
     'lingmo-terminal' 'lingmo-texteditor' 'lingmo-calculator'
-    'lingmo-screenshots' 'lingmo-screenlocker'
+    'lingmo-screenshots' 'lingmo-screenlocker' 'lingmo-videoplayer'
 )
 optdepends=(
     'konsole: KDE terminal'
